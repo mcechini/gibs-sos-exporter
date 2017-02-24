@@ -186,7 +186,7 @@ def main(argv):
    longName  = "GIBS Test Imagery"
 
 
-   outputDir = os.path.join("output", shortName)
+   outputDir = os.path.join("../output", shortName)
    
    if not os.path.exists(outputDir):
       os.makedirs(outputDir)
